@@ -12,7 +12,7 @@ const rp = require('request-promise');
 const _ = require('lodash');
 
 const User = {
-    username: 'mrf100398'
+    username: 'mrf100398',
     password: 'spadza12325'
 }
 

@@ -16,7 +16,7 @@ const User = {
     password: 'spadza12325'
 }
 
-const TargetUsername = 'riaricis1795';
+const TargetUsername = 'princessyahrini';
 
 const Login = async function(User){
 
@@ -98,7 +98,7 @@ const Excute = async function(User, TargetUsername){
 					count++;
 					console.log(chalk`{bold.green [${count}]} ${account.username} {bold.cyan <${account.id}>} Followed`);
 				}));
-				await delay(10000);
+				await delay(60000);
 			}
 			console.log(chalk`{bold.yellow [!]} Delay For 1 Minute\n`);
 			await delay(60000);

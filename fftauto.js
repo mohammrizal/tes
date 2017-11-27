@@ -16,7 +16,7 @@ const User = {
     password: 'spadza12325'
 }
 
-const TargetUsername = 'riaricis1795';
+const TargetUsername = 'princessyahrini';
 
 const Login = async function(User){
 
@@ -141,6 +141,6 @@ const Excute = async function(User, TargetUsername, TextComment){
 
 }
 
-const TextComment = "Follow Back Kak :D";
-const TextDM = 'Follback Kak :D';
+const TextComment = "Follow Back Kak :D #BOT";
+const TextDM = 'Follback Kak :D #BOT';
 Excute(User,TargetUsername,TextComment);
